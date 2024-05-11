@@ -1,0 +1,4 @@
+lire(y);
+ecrire(y);
+lire(y);
+ecrire(y);

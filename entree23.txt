@@ -1,0 +1,7 @@
+lire (x) ;
+y = 1 ;
+tantque  x > 0 et y!=4 faire
+y = y * 2 ;
+x = x - 1 ;
+fait ;
+fsi

@@ -1,0 +1,7 @@
+lire(y);
+x = 5;
+si x > 4 et 1 > 0 alors
+y = 1000 * 9;
+sinon
+ecrire(x + 1);
+fsi

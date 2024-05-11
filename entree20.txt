@@ -1,0 +1,9 @@
+x = 3 ;
+r = 2 ;
+a = 5 ;
+si x < a alors
+x = x-3 ;
+r = r+4 ;
+sinon
+x = 2 ;
+fsi

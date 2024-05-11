@@ -1,0 +1,3 @@
+lire(x);
+ecrire(x);
+ecrire(x+8*2);
