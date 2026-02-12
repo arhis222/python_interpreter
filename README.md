@@ -24,10 +24,6 @@ The implementation is highly modular, with each component handling a specific st
 * **Construction**: Defines functions to create nodes for operations (`creer_operation`), assignments (`creer_aff`), and control structures (`creer_si`, `creer_tantque`).
 * **Traversal**: Contains the logic to evaluate arithmetic trees (`evaluer`) and execute the program instructions (`interpreter`).
 
-### 5. Symbol Table (`table_symbole.c / .h`)
-* Manages the storage and retrieval of variables (identifiers) during interpretation.
-* Ensures that variables are declared before use and maintains their values across instructions.
-
 ## Supported Features
 
 * **Floating-Point Arithmetic**: The calculator supports decimals, though the interpreter currently treats variables as integers.
