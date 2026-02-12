@@ -2,7 +2,7 @@
 
 This project, developed as part of the INF404 curriculum, consists of two main C programs: a **Calculator** for arithmetic evaluation and an **Interpreter** for a custom procedural language. The system processes source code through a full pipeline: lexical analysis, recursive descent parsing, and Abstract Syntax Tree (AST) execution.
 
-## 🏗️ Project Structure & Components
+## Project Structure & Components
 
 The implementation is highly modular, with each component handling a specific stage of the language processing:
 
@@ -28,18 +28,18 @@ The implementation is highly modular, with each component handling a specific st
 * Manages the storage and retrieval of variables (identifiers) during interpretation.
 * Ensures that variables are declared before use and maintains their values across instructions.
 
-## 🚀 Supported Features
+## Supported Features
 
 * **Floating-Point Arithmetic**: The calculator supports decimals, though the interpreter currently treats variables as integers.
 * **I/O Operations**: Use `lire(x)` to take user input and `ecrire(expression)` to output results to the terminal.
 * **Boolean Logic**: Supports comparison operators (`==`, `!=`, `<`, `>`, `<=`, `>=`) and logical operators (`et`, `ou`, `non`).
 * **Control Flow**: Fully supports conditional `si-alors-sinon-fsi` blocks and iterative `tantque-faire-fait` loops.
 
-## 💻 How to Run
+## How to Run
 
 1.  **Compile**: Run `make` to build both executables.
 2.  **Calculator**: `./calculette entree.txt`
 3.  **Interpreter**: `./interpreteur source.txt`
 
-## 👤 Author
+## Author
 * **Arhan UNAY**
